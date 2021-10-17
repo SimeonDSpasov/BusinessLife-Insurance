@@ -1667,28 +1667,28 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
     box-shadow: 0 5px 5px rgba(0,0,0,0.15);
    }
    .osigurqvane {
-    border-top: 5px solid #f26a39;
+    border-top: 5px solid #0f4f9b;
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
     margin-bottom: 20px;
 }
 .zastrahovane {
-    border-top: 5px solid #f26a39;
+    border-top: 5px solid #0f4f9b;
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
     margin-bottom: 20px;
 }
 .planirane {
-    border-top: 5px solid #f26a39;
+    border-top: 5px solid #0f4f9b;
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
     margin-bottom: 20px;
 }
 .biznes {
-    border-top: 5px solid #f26a39;
+    border-top: 5px solid #0f4f9b;
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
@@ -2154,7 +2154,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
          left: 50%;
          transform: translateX(-50%);
      }
-     .bar {
+     /* .bar {
          width: 50px;
          height: 10px;
          border: 2px solid #f26a39;
@@ -2172,7 +2172,48 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
             border: #003da4;
             border-radius: 10px;
             box-shadow: 0 5px 5px rgba(0,0,0,0.15);
-         }
+         } */
+         .bar {
+            border: 5em;
+            cursor: pointer;
+            outline: none;
+            font-size:8px;
+            -webkit-transform: translate(0);
+            transform: translate(0);
+            background-image: linear-gradient(45deg, #0f4f9b, #f15a24);
+            padding: 0.1em 7em;
+            border-radius: 65px;
+            box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+            -webkit-transition: box-shadow 0.25s;
+            transition: box-shadow 0.25s;
+            color: white;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+          
+          
+          
+          .bar:after {
+            content: "";
+            border-radius: 18px;
+            position: absolute;
+            margin: 4px;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            
+          }
+          
+          .bar:hover {
+            background-image: linear-gradient(-45deg,  #0f4f9b, #f15a24);
+            box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+          }
+          
+          .bar:hover .text {
+            background-image: linear-gradient(-45deg, #0f4f9b, #f15a24);
+          }
       input[name="r"] {
           position:absolute;
           visibility: hidden;
