@@ -2281,6 +2281,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
       }
       
       .button {
+        border-radius: 75px;
         border: none;
         outline: 0;
         display: inline-block;
