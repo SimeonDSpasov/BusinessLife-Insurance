@@ -2281,6 +2281,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
       }
       
       .button {
+          
         border-radius: 75px;
         border: none;
         outline: 0;
@@ -2291,10 +2292,12 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
         text-align: center;
         cursor: pointer;
         width: 100%;
+        
       }
       
       .button:hover {
         background-color: #F28033;
+        transition: 0.3s;
       }
       
       @media screen and (max-width: 650px) {
@@ -2308,4 +2311,8 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
           height: 500px;
           
       }
-  
+      .container_contact {
+        padding: 6px 16px;
+        font-size: 12px;
+        position:relative;
+    }
