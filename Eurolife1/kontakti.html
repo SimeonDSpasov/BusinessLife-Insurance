@@ -415,7 +415,7 @@
       <div id="myModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
-          <h1>Контакти</h1>
+          <h1 style="color:#0f4f9b">‎‎‎Контакти</h1>
         
           <div class="custom-select" style="width:200px;">
             <select>
@@ -441,7 +441,7 @@
 
           </div>
           <div class="contact-form">
-            <form id="contact-form" method="post" action="">
+            <form id="contact-form" method="post" action="contact-form-handler.php">
               <input name="name" type="text" class="form-control" placeholder="Име" required>
               <br> 
               <input name="name2" type="text" class="form-control" placeholder="Фамилия" required>
@@ -450,9 +450,17 @@
               <br>
     
               
-              <textarea name="message" class="form-control" placehodler="Message" row="4" required></textarea>
+              <textarea name="message" class="form-control" placeholder="Допълнителна информация" row="4"></textarea>
               <br>
-              <input type="submit" class="form-control submit" value="SEND MESSAGE">
+              <p class="consent-data">Съгласен съм личните ми данни да бъдат събирани
+                 и обработвани от ЕВРОЛАЙФ БЪЛГАРИЯ ЕООД</p>
+              <br>
+              <input type="checkbox" id="scales"  
+              unchecked required>
+              <label for="scales" class="form-control" >Съгласен съм</label>
+              <br>
+              
+              <input type="submit" class="form-control submit" value="ИЗПРАТИ">
              </form>
           </div>
         </div>
@@ -622,7 +630,8 @@
           then close all select boxes:*/
           document.addEventListener("click", closeAllSelect);
         </script>
-    </section>
+    
+    
     <!-- <section class="container3">
         <div class="person-bio">
           <div class="first-person">

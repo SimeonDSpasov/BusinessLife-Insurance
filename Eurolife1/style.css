@@ -2260,7 +2260,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
       .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: 8px;
-        border-top: 5px solid #003da4;
+        border-top: 5px solid #0f4f9b;
         border-radius: 5px;
       }
       
@@ -2340,7 +2340,10 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
         padding: 20px;
         border: 1px solid rgb(255, 255, 255);
         box-shadow: 0 5px 5px rgba(0,0,0,0.15);
-        width: 80%; /* Could be more or less, depending on screen size */
+        width: 30%; /* Could be more or less, depending on screen size */
+        text-align: center;
+        font-size: 12px;
+        
       }
       
       
@@ -2349,6 +2352,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
         float: right;
         font-size: 28px;
         font-weight: bold;
+        
       }
       
       .close:hover,
@@ -2363,6 +2367,8 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
 .custom-select {
     position: relative;
     font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .custom-select select {
@@ -2370,7 +2376,11 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
   }
   
   .select-selected {
-    background-color: #0f4f9b;
+    background-color: #F28033;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    
   }
   
   /*style the arrow inside the select element:*/
@@ -2383,6 +2393,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
+    
   }
   
   /*point the arrow upwards when the select box is open (active):*/
@@ -2405,11 +2416,13 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
   /*style items (options):*/
   .select-items {
     position: absolute;
-    background-color: #0f4f9b;
+    background-color: #F28033;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 99;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   
   /*hide the items when the select box is closed:*/
@@ -2420,3 +2433,50 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
   .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  .contact-form {
+      text-align: center;
+      font-size: 14px;
+      
+  }
+  
+  .form-control {
+      border-style: none;
+      font-size: 16px;
+      background: transparent;
+      margin-top: 50px;
+      border: none;
+      outline: none;
+      padding: 5px;
+      border: 1px solid #eff0f1;
+      border-radius: 20px;
+      letter-spacing: 1px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+  }
+ form .submit {
+     background: #F28033;
+     color: #fff;
+     font-size: 18px;
+     width: 25%;
+ }
+ form .submit:hover {
+    background: #ff6702;
+    color: #fff;
+    font-size: 18px;
+}
+ .consent-data {
+     width: 250px;
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     background: #eff0f1;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     border: 1px solid #d3d2d2;
+     border-radius: 5px;
+ }
+ textarea {
+     resize: none;
+     
+ }
