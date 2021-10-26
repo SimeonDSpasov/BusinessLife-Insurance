@@ -1,6 +1,6 @@
 <?php
     $name = $_Post['name'];
-    $visitor_email = $_Post['email']
+    $visitor_email = $_Post['email'];
     $message = $_Post['message'];
 
     $email_from = 'thegamefan36@gmail.com';
