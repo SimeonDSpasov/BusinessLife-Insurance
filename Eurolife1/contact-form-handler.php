@@ -1,5 +1,6 @@
 <?php
     $name = $_Post['name'];
+    $name2 = $_Post['name2'];
     $visitor_email = $_Post['email'];
     $message = $_Post['message'];
 
@@ -8,6 +9,7 @@
     $email_subject = "New Form Submission";
 
     $email_body = "User name: $name. \n".
+                    "User name: $name2. \n".
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
 
