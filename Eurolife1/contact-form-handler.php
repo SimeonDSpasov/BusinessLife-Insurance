@@ -1,15 +1,15 @@
 <?php
-    $name = $_Post['name'];
-    $name2 = $_Post['name2'];
-    $visitor_email = $_Post['email'];
-    $message = $_Post['message'];
+    $name = $_POST['name'];
+    $name2 = $_POST['name2'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
 
     $email_from = 'thegamefan36@gmail.com';
 
     $email_subject = "New Form Submission";
 
-    $email_body = "User name: $name. \n".
-                    "User name: $name2. \n".
+    $email_body = "User name: $name.\n".
+                    "User name: $name2.\n".
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
 
