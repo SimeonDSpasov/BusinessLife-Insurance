@@ -2480,3 +2480,139 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
      resize: none;
      
  }
+ .third-document {
+    max-width: 1000px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+.third-document-text {
+    position: relative;
+    
+    overflow: hidden;
+}
+.third-content {
+    height: 200px;
+}
+.third-document-text h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#095EBA;
+    
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.third-document .third-document-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, white);
+}
+.third-document a{
+    display: inline-block;
+    color: rgb(0,61,164);
+    background-color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 75px;
+    border: 2px solid #003da4;
+    margin-top: 0px;
+}
+.third-document li{
+    font-size: 16px;
+    line-height: 160%;
+}
+.third-document ul li{ 
+    font-size: 14px;
+    color:#0969B0;
+    line-height: 180%;
+    font-weight:bolder;
+}
+
+.third-document a:hover{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2); 
+    color: white;
+    background: rgb(0,61,164);
+    background: linear-gradient(90deg, rgba(0,61,164,1) 0%, rgba(0,105,215,1) 100%);
+    padding: 7px;
+    transition: 0.7s;
+    border-radius: 75px;
+}
+.third-more { 
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.third-more::before { 
+    content: 'Прочети още';  
+  }
+  .third-document.active .more::before {
+    content: 'ЗАТВОРИ';
+}
+.third-document.active .more {
+    background-color: #003da4;
+    color: white;
+}
+.third-document.active .third-content{
+    height: auto;
+}
+.third-document.active .third-document-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, white);
+    display: none;
+}
+.content p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #0969B0;
+}
+.third-content p{
+    font-size: 16px;
+    line-height: 160%;
+    color: #0969B0;
+}
+.third-content li{
+    font-size: 16px;
+    line-height: 160%;
+}
+.third-content ul li{ 
+    font-size: 14px;
+    color:#0969B0;
+    line-height: 180%;
+    font-weight:bolder;
+}
+
+.third-content ol li{ 
+    color:#0969B0;
+        font-weight:bolder;
+      
+
+      
+      
+}
+.second-content ol li span {
+    color:#0969B0;
+    font-weight: normal;
+ }
+ .date {
+     position:absolute;
+     top: 10px;
+     left: 880px;
+ }
