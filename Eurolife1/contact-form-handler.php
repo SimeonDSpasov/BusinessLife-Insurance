@@ -14,7 +14,7 @@
                         
     $to = "thegamefan36@gmail.com";
 
-    $headers = "From: $email_from \r\n";
+   
 
     $headers .= "Reply-To: $visitor_email \r\n";
 
