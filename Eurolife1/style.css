@@ -678,7 +678,7 @@ header {
        width: 40px;
        height: 40px;
        display: inline-block;
-       margin-left: 30px;
+       margin-left: 20px;
        
        
    }
@@ -2743,3 +2743,15 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
     color:#0969B0;
     font-weight: normal;
  }
+.footer-logo {
+    height: 200px;
+}
+.fa.fa-twitter {
+    padding-left: 10px;
+}
+.fa.fa-youtube {
+    padding-left: 8px;
+}
+.fa.fa-facebook {
+    padding-left: 14px;
+}
