@@ -234,8 +234,12 @@ header {
 }
 .info { 
     padding-inline-start: 0px;
+    
+}
+.info_color {
     color:#0f4f9b;
 }
+
 /* .icons { 
     display: inline-flex;
     margin-inline-start: auto;
@@ -2755,3 +2759,82 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
 .fa.fa-facebook {
     padding-left: 14px;
 }
+.product2 {
+    display: inline-flex;
+    
+}
+.product2-card {
+    position:relative;
+    margin: 20px;
+    width: 280px;
+    height: 420px;
+    background:
+    #002564;
+    border-radius: 20px;
+    overflow:hidden;
+    -webkit-box-shadow: 6px 13px 15px -1px rgba(0,0,0,0.38); 
+    box-shadow: 6px 13px 15px -1px rgba(0,0,0,0.38);
+    
+}
+.product2-card:before { 
+    content: ' ';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #F28033;
+    transform: skewY(345deg);
+    transition: 0.5s;
+   
+    
+}
+.product2-card:hover::before {
+    transform: skewY(390deg);
+}
+.product2-card:after { 
+    content: "ЗАСТРАХОВКА";
+    transform: rotate(-377deg);
+    position: absolute;
+    bottom: 150px;
+    left: 7;
+    font-weight: 600;
+    font-size: 2em;
+    color: rgba(0,0,0,0.2);
+}
+.cntBx {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.product2-card .cntBx {
+    font-size: 18px;
+    color:#fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.product2-card .cntBx .buy {
+    position: relative;
+    padding: 10px 30px;
+    margin-top: 15px;
+    top: 200px;
+    opacity: 0;
+    color: #fff;
+    text-decoration: none;
+    background: #2196f3;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.product2-card:hover .cntBx .buy {
+    top: 0px;
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+
+              

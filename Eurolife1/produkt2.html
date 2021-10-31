@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeSure</title>
+    <link rel="icon" href="comet.png" type="image/icon type" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <script
+      src="https://kit.fontawesome.com/17b484514f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javaascript.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="Eurolife.html">
+        <img src="comet.png" class="logo" alt="logo" />
+        <img src="Logo BeSure4.png" class="logo2" alt="logo" />
+      </a>
+      <nav class="up-nav">
+        <ul class="up-nav-ul">
+          <li class="inline"><a href="#">Полезни статии</a></li>
+          <li class="inline"><a href="#">Кариери</a></li>
+          <li class="inline"><a href="kontakti.html">Контакти</a></li>
+          
+     
+          <li class="inline-search">
+            <input type="text" placeholder="Търсене..." />
+          </li>
+          <button class="inline-search" type="submit">Търсене</button>
+        </ul>
+      </nav>
+      <nav class="down-nav">
+        <ul class="down-nav-ul">
+          <li class="inline2">
+            <a href="Osigurqvane.html">Лично осигуряване</a>
+          </li>
+          <li class="inline2">
+            <a href="zastrahovane.html">Животозастраховане</a>
+          </li>
+          <li class="inline2">
+            <a href="planirane.html"> Финансово планиране</a>
+          </li>
+          <li class="inline2">
+            <a href="biznes.html"> Започнете собствен бизнес</a>
+          </li>
+          <li class="inline2">
+            <a href="produkti.html">Продукти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="planirane-main">
+      <section class="banner">
+        <h2 class="product-main-title">Спестовна застраховка „ЖИВОТ“ с включени здравни покрития</h2>
+      </section>
+      <section>
+        <div class="first-document">
+            
+              
+              
+              
+            <div class="content">
+            <p>
+              1. Застраховка „Живот“ със спестовен характер с изплащане на
+              пълната застрахователна сума в случай на доживяване срока на
+              застраховкатa или фатален край от заболяване;
+            </p>
+            <p>
+              2. Изплащане на пълната застрахователна сума в случай на
+              диагностициране на тежко заболяване от публикуван списък;
+            </p>
+            <p>
+              3. Изплащане на удвоения размер на застрахователна сума в случай
+              на фатален край от злополука;
+            </p>
+            </div>
+          </div>
+      </section>
+    </main>
+    <script>
+      let more = document.querySelectorAll(".more");
+      for (let i = 0; i < more.length; i++) {
+        more[i].addEventListener("click", function () {
+          more[i].parentNode.classList.toggle("active");
+        });
+      }
+    </script>
+    <div class="footerp">
+      <footer class="footer">
+        <div class="footer-left">
+          <img src="besure5.png" class="footer-logo" alt="Eurolife" />
+
+          <div class="socials">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <ul class="footer-right">
+          <li>
+            <h2>Меню</h2>
+            <ul class="box">
+              <li><a href="Osigurqvane.html">Лично осигуряване</a></li>
+              <li><a href="zastrahovane.html">Животозастраховане</a></li>
+              <li><a href="planirane.html">Финансово планиране</a></li>
+              <li><a href="biznes.html">Започнете собствен бизнес</a></li>
+            </ul>
+          </li>
+          <li class="features">
+            <h2>Полезно</h2>
+            <ul class="box">
+              <li><a href="#">Полезни статии</a></li>
+              <li><a href="biznes.html">Кариери</a></li>
+              <li><a href="kontakti.html">Контакти</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Адрес</h2>
+            <ul class="box">
+              <li><a href="#">ул. „проф. Джовани Горини“ 10</a></li>
+              
+              <li><a href="#">1505 Оборище</a></li>
+              <li><a href="#">София</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer-bottom">
+          <p>All Rights reserved. &copy;Eurolife</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
