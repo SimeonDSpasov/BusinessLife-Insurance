@@ -13,3 +13,7 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var select = document.getElementById('konsultant');
+  var text = select.options[select.selectedIndex].text;
+  console.log(text);

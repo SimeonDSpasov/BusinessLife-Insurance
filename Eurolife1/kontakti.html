@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="all.min.css" />
   <script src="https://kit.fontawesome.com/17b484514f.js" crossorigin="anonymous"></script>
-  <script src="javaascript.js"></script>
+  
 
 </head>
 
 <body>
+  <script src="javaascript.js"></script>
   <header>
     <a href="Eurolife.html">
       <img src="comet.png" class="logo" alt="logo" />
@@ -413,8 +414,8 @@
           <span class="close">&times;</span>
           <h1 style="color:#0f4f9b">‎‎‎Контакти</h1>
         
-          <div class="custom-select" style="width:200px;">
-            <select>
+          <div class="custom-select" style="width:200px;" method="post" action="contact-form-handler.php">
+            <select id="konsultant">
               <option value="0">Избери консултант:</option>
               <option value="1">Борис Борисов</option>
               <option value="2">Веселин Богданов</option>
@@ -438,6 +439,7 @@
           </div>
           <div class="contact-form">
             <form id="contact-form" method="post" action="contact-form-handler.php">
+            
               <input name="name" type="text" class="form-control" placeholder="Име" required>
               <br> 
               <input name="name2" type="text" class="form-control" placeholder="Фамилия" required>
