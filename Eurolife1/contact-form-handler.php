@@ -16,17 +16,11 @@
                         
     $to = "thegamefan36@gmail.com";
    
-    $option = isset($_POST['name3']) ? $_POST['name3'] : false;
-    if ($option) {
-       echo htmlentities($_POST['name3'], ENT_QUOTES, "UTF-8");
-    } else {
-      echo "task option is required";
-      exit; 
-    }
+  
 
     $headers = "Reply-To: $visitor_email \r\n";
 
-    mail($to,$email_subject,$email_body,$headers,$option);
+    mail($to,$email_subject,$email_body,$headers);
 
     header("Location: kontakti.html");
 ?>
