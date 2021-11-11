@@ -5,16 +5,16 @@
     $message = $_POST['message'];
     $name3 = $_POST['name3'];
 
-    $email_subject = "New Form Submission";
+    $email_subject = "Нов контакт";
 
-    $email_body = "User name: $name.\n".
-                    "User name: $name2.\n".
-                    "User Email: $visitor_email.\n".
-                        "User Message: $message.\n".
-                        "Consulstant: $name3.\n";
+    $email_body = "Име: $name.\n".
+                    "Фамилия: $name2.\n".
+                    "И-мейл: $visitor_email.\n".
+                        "Доплънително съобщение: $message.\n".
+                        "Връзка с консултант: $name3.\n";
 
                         
-    $to = "thegamefan36@gmail.com";
+    $to = "businesslifeinsurance.bg@gmail.com";
    
   
 
