@@ -22,7 +22,7 @@
     } else {
       echo "task option is required";
       exit; 
-   
+    }
 
     $headers = "Reply-To: $visitor_email \r\n";
 
