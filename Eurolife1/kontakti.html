@@ -414,32 +414,33 @@
           <span class="close">&times;</span>
           <h1 style="color:#0f4f9b">‎‎‎Контакти</h1>
         
-          <div class="custom-select" style="width:200px;" >
-            <select id="konsultant" method="post" action="contact-form-handler.php">
-              <option value="0">Избери консултант:</option>
-              <option value="1" name="name3" type="text" required>Борис Борисов</option>
-              <option value="2">Веселин Богданов</option>
-              <option value="3">Таня Георгиева</option>
-              <option value="4">Даниела Дечева</option>
-              <option value="5">Ангелина Харизанова</option>
-              <option value="6">Диана Иванова</option>
-              <option value="7">Йорданка Стоева</option>
-              <option value="8">Катя Никифорова</option>
-              <option value="9">Лидия Русева</option>
-              <option value="10">Михаил Тончев</option>
-              <option value="11">Нина Христева</option>
-              <option value="12">Олга Димитрова</option>
-              <option value="13">Румяна Тончева</option>
-              <option value="14">Сияна Герчева</option>
-              <option value="15">Станимир Стоев</option>
-              <option value="16">Стефка Русева</option>
-              <option value="17">Цветомира Гатева</option>
-            </select>
-
-          </div>
+       
           <div class="contact-form">
             <form id="contact-form" method="post" action="contact-form-handler.php">
+              <div class="custom-select" style="width:200px;">
             
+                <select id="konsultant" type="text" name="name3" required>
+                  <option value="0">Избери консултант:</option>
+                  <option value="1">Борис Борисов</option>
+                  <option value="2">Веселин Богданов</option>
+                  <option value="3">Таня Георгиева</option>
+                  <option value="4">Даниела Дечева</option>
+                  <option value="5">Ангелина Харизанова</option>
+                  <option value="6">Диана Иванова</option>
+                  <option value="7">Йорданка Стоева</option>
+                  <option value="8">Катя Никифорова</option>
+                  <option value="9">Лидия Русева</option>
+                  <option value="10">Михаил Тончев</option>
+                  <option value="11">Нина Христева</option>
+                  <option value="12">Олга Димитрова</option>
+                  <option value="13">Румяна Тончева</option>
+                  <option value="14">Сияна Герчева</option>
+                  <option value="15">Станимир Стоев</option>
+                  <option value="16">Стефка Русева</option>
+                  <option value="17">Цветомира Гатева</option>
+                </select>
+              
+              </div>
               <input name="name" type="text" class="form-control" placeholder="Име" required>
               <br> 
               <input name="name2" type="text" class="form-control" placeholder="Фамилия" required>
