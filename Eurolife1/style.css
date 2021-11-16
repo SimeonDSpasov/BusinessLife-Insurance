@@ -714,6 +714,7 @@ header {
             padding: 15px;
             
         }
+        
         .logo2 {
             display: none;
         }
@@ -957,6 +958,7 @@ header {
         
         
     }
+   
     .up-nav a{ 
         display: flex;
         color:#003da4;
@@ -1159,10 +1161,7 @@ header {
     .info { 
         padding-inline-start: 0px;
     }
-    .person-bio {
-        
-        
-    }
+ 
     .first-person {
         position: relative;
         width: 585px;
@@ -1721,6 +1720,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
     .logo {
         width: 150px;
     }
+   
 }
 @media (max-width: 730px) {
     .up-nav {
@@ -1743,6 +1743,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
         text-align: center;
 
     }
+    
     .container2 {
         
        align-items: baseline;
@@ -2875,5 +2876,37 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
     transition: 0.5s;
     
 }
-
-              
+.polezni-article { 
+    color: white;
+    max-width: 1200px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    border: 2px #dd732c solid;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 13px 15px -1px rgba(0,0,0,0.38); 
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(242,128,51,1) 79%);
+}
+.date-article {
+    margin-left: -300px;
+    font-size: 16px;
+    float: right;
+}
+.polezni-article:hover {
+    background: rgb(0,61,164);
+    background: linear-gradient(90deg, rgba(0,61,164,1) 0%, rgba(0,105,215,1) 100%);
+    transition: 0.7s;
+    border: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .polezni-article { 
+        height: 160px;
+    }
+    .polezni-article h2 {
+        width: 320px;
+    }
+  }
