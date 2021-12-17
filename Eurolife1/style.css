@@ -3748,16 +3748,38 @@ background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(242,128,51,1) 79%)
         transform: translateX(-100px);
       }
 }
+ .choose-title:hover{
+    border-top: 2px solid #0f4f9b;
+   
+    transition: 1s;
+    border-bottom: 2px solid #0f4f9b;
+   
+}
+.choose-part:hover{
+    border-top: 5px solid #0f4f9b;
+    transition: 1s
+}
 .choose-part { 
-    border-radius: 5px;
-    object-fit: cover;
+    border-top: 5px solid #f28033;
+    border-radius: 25px;
     
+    margin-left: 12px;
+    object-fit: cover;
+    -webkit-box-shadow: 10px 7px 24px 1px rgba(0,0,0,0.33); 
+    box-shadow: 14px 7px 24px 1px rgba(0,0,0,0.33);
+}
+.column-choose:hover .choose-part {
+    background-color: #002564;
+}
+.column-choose:hover {
+    
+    transition: 0.2s;
 }
 .column-choose {
     height: 600px;
     overflow:hidden;
     position:relative;
-    
+   
 }
 .choose-title {
     color: #FFFFFF;
