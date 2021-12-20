@@ -3795,3 +3795,15 @@ background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(242,128,51,1) 79%)
     left: 48%;
     transform: translate(-50%, -50%);
 }
+.first-document2 {
+    color: #0f4f9b;
+    
+    max-width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
