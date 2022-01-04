@@ -1938,6 +1938,41 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
         
     }
 }
+@media (max-width: 600px){
+    .column-choose { 
+        margin-left:auto;
+        margin-right:auto;
+        width: 400px;
+        height: 300px;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+}
+@media(min-width: 1400px){
+    form{
+        width: 100%;
+    }
+}
+@media (min-width: 1120px) and (max-width: 5000px){
+    .column-choose {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        height: 600px;
+      }
+}
+@media (min-width: 600px) and (max-width: 1120px)
+{
+    .column-choose { 
+        margin-left:auto;
+        margin-right:auto;
+        width: 400px;
+        height: 300px;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+}
 @media (min-width: 600px) and (max-width: 1000px) {
     .product2 {
         display: inline-block;
@@ -2421,7 +2456,33 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
  /**/ /* Slider */
  /**/
  /**/
+ @media (max-width: 1219px){
+    .modal-content {
+        background-color: #fefefe;
+        border-radius: 10px;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        width: 300px; /* Could be more or less, depending on screen size */
+        text-align: center;
+        font-size: 12px;
+        
+      }
+ }
  @media only screen and (min-width: 1220px) {
+    .modal-content {
+        background-color: #fefefe;
+        border-radius: 10px;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        width: 600px; /* Could be more or less, depending on screen size */
+        text-align: center;
+        font-size: 12px;
+        
+      }
     .slidershow {
         width: 1200px;
         height: 400px;
@@ -2766,12 +2827,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
             box-shadow: 0 5px 5px rgba(0,0,0,0.15);
          } */
         
-      .column-choose {
-        float: left;
-        width: 33.3%;
-        margin-bottom: 16px;
-        padding: 0 8px;
-      }
+      
       .column {
         float: left;
         width: 33.3%;
@@ -2865,18 +2921,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
       }
       
       /* Modal Content/Box */
-      .modal-content {
-        background-color: #fefefe;
-        border-radius: 10px;
-        margin: 15% auto; /* 15% from the top and centered */
-        padding: 20px;
-        border: 1px solid rgb(255, 255, 255);
-        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
-        width: 30%; /* Could be more or less, depending on screen size */
-        text-align: center;
-        font-size: 12px;
-        
-      }
+    
       
       
       .close {
@@ -2988,7 +3033,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.79);
      background: #F28033;
      color: #fff;
      font-size: 18px;
-     width: 25%;
+     width: 40%;
  }
  form .submit:hover {
     background: #ff6702;
@@ -3776,7 +3821,7 @@ background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(242,128,51,1) 79%)
     transition: 0.2s;
 }
 .column-choose {
-    height: 600px;
+    
     overflow:hidden;
     position:relative;
    
